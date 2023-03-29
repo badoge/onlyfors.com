@@ -2,21 +2,21 @@
 <html lang="en" data-bs-theme="light">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.png" />
-    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./onlyfors.css" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/onlyfors.css" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="content-security-policy" content="" />
-    <link href="./app/immutable/assets/page.7348dbe9.css" rel="stylesheet" />
-    <link rel="modulepreload" href="./app/immutable/entry/start.10a3be67.js" />
-    <link rel="modulepreload" href="./app/immutable/chunks/index.bd0e5dec.js" />
-    <link rel="modulepreload" href="./app/immutable/chunks/singletons.57ad7872.js" />
-    <link rel="modulepreload" href="./app/immutable/chunks/paths.80354bf6.js" />
-    <link rel="modulepreload" href="./app/immutable/entry/app.468ced7e.js" />
-    <link rel="modulepreload" href="./app/immutable/entry/layout.svelte.653967ff.js" />
-    <link rel="modulepreload" href="./app/immutable/entry/page.svelte.9c60a1db.js" />
-    <link rel="modulepreload" href="./app/immutable/entry/page.js.9c5eea7e.js" />
-    <link rel="modulepreload" href="./app/immutable/chunks/page.da46b06b.js" />
+    <link href="/app/immutable/assets/page.7348dbe9.css" rel="stylesheet" />
+    <link rel="modulepreload" href="/app/immutable/entry/start.10a3be67.js" />
+    <link rel="modulepreload" href="/app/immutable/chunks/index.bd0e5dec.js" />
+    <link rel="modulepreload" href="/app/immutable/chunks/singletons.57ad7872.js" />
+    <link rel="modulepreload" href="/app/immutable/chunks/paths.80354bf6.js" />
+    <link rel="modulepreload" href="/app/immutable/entry/app.468ced7e.js" />
+    <link rel="modulepreload" href="/app/immutable/entry/layout.svelte.653967ff.js" />
+    <link rel="modulepreload" href="/app/immutable/entry/page.svelte.9c60a1db.js" />
+    <link rel="modulepreload" href="/app/immutable/entry/page.js.9c5eea7e.js" />
+    <link rel="modulepreload" href="/app/immutable/chunks/page.da46b06b.js" />
     <title>OnlyFors</title>
     <!-- HEAD_svelte-koix55_START -->
     <link rel="stylesheet" href="lite-yt/lite-yt.min.css" />
@@ -33,7 +33,7 @@
       property="og:description"
       content="Forsen related social network. Forsen posts, streams, private content, special events, big plays, tilts. Everything that is somewhat related to forsen."
     />
-    <meta property="og:image" content="https://i.imgur.com/q9hDm2Q.png" />
+    <meta property="og:image" content="/ogp.png" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://onlyfors.com/" />
     <meta property="twitter:title" content="OnlyFors" />
@@ -41,7 +41,7 @@
       property="twitter:description"
       content="Forsen related social network. Forsen posts, streams, private content, special events, big plays, tilts. Everything that is somewhat related to forsen."
     />
-    <meta property="twitter:image" content="https://i.imgur.com/q9hDm2Q.png" />
+    <meta property="twitter:image" content="/ogp.png" />
     <!-- HEAD_svelte-koix55_END -->
   </head>
 
@@ -83,7 +83,7 @@
               <div class="profile svelte-12bawbv">
                 <div class="top-bar svelte-12bawbv">
                   <div class="profile-logo svelte-12bawbv">
-                    <a class="profile-logo svelte-1hgycnz" href="./#" style="width: 100px; height: 100px"><img src="forsen/profile-logo.png" alt="Forsen" class="svelte-1hgycnz" /> </a>
+                    <a class="profile-logo svelte-1hgycnz" href="#" style="width: 100px; height: 100px"><img src="forsen/profile-logo.png" alt="Forsen" class="svelte-1hgycnz" /> </a>
                   </div>
                   <div class="profile-buttons svelte-12bawbv">
                     <button class="btn btn-outline-primary btn-share svelte-12bawbv" aria-label="Copy link to profile">
@@ -94,7 +94,7 @@
                 <div class="content svelte-12bawbv">
                   <div class="name svelte-1xgz0oc">
                     <div>
-                      <a class="display-name svelte-1xgz0oc" href="./#">Forsen</a>
+                      <a class="display-name svelte-1xgz0oc" href="#">Forsen</a>
                       <svg class="verified svelte-1xgz0oc" aria-hidden="true"><use xlink:href="iconpack.svg#icon-verified" href="iconpack.svg#icon-verified"></use></svg>
                     </div>
                     <div class="username svelte-1xgz0oc">@forsen</div>
@@ -189,11 +189,11 @@
           <hr class="my-3" />
 
           <div class="footer-notice svelte-qfq45n">
-            <a href="./#" class="svelte-qfq45n">Privacy</a>
+            <a href="#" class="svelte-qfq45n">Privacy</a>
             <b>∙</b>
-            <a href="./#" class="svelte-qfq45n">Cookie Notice</a>
+            <a href="#" class="svelte-qfq45n">Cookie Notice</a>
             <b>∙</b>
-            <a href="./#" class="svelte-qfq45n">Terms of Service</a>
+            <a href="#" class="svelte-qfq45n">Terms of Service</a>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@
 
           const data = [null, null];
 
-          Promise.all([import("./app/immutable/entry/start.10a3be67.js"), import("./app/immutable/entry/app.468ced7e.js")]).then(([kit, app]) => {
+          Promise.all([import("/app/immutable/entry/start.10a3be67.js"), import("/app/immutable/entry/app.468ced7e.js")]).then(([kit, app]) => {
             kit.start(app, __sveltekit_1dzwxsh.element, {
               node_ids: [0, 2],
               data,
