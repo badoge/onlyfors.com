@@ -1,0 +1,84 @@
+/* restyle bootstrap: */
+[data-bs-theme="light"] {
+  --bs-primary-text: #0091ea;
+  --bs-body-color-rgb: 36, 37, 41;
+  --bs-body-color: #242529;
+  --bs-link-hover-color: #0091ea;
+  --bs-link-hover-color-rgb: 0, 145, 234;
+  --bs-link-color: #00aff0;
+  --bs-link-color-rgb: 0, 175, 240;
+}
+[data-bs-theme="dark"] {
+  --bs-body-color: #f6f7f8;
+  --bs-body-color-rgb: 246, 247, 248;
+  --bs-body-bg: #161618;
+  --bs-body-bg-rgb: 22, 22, 24;
+  --bs-primary-text: #0091ea;
+  --bs-link-hover-color: #0091ea;
+  --bs-link-hover-color-rgb: 0, 145, 234;
+  --bs-link-color: #00aff0;
+  --bs-link-color-rgb: 0, 175, 240;
+}
+.btn-outline-primary {
+  --bs-btn-color: #0091ea;
+  --bs-btn-hover-color: #0083d5;
+  --bs-btn-border-color: rgba(160, 160, 160, 0.3);
+  --bs-btn-hover-bg: rgba(0, 145, 234, 0.2);
+  --bs-btn-hover-border-color: #0091ea;
+  --bs-btn-active-bg: rgba(0, 145, 234, 0.5);
+  --bs-btn-active-color: #0091ea;
+}
+.modal {
+  --bs-modal-width: 700px;
+}
+a {
+  text-decoration: none;
+}
+
+/* custom buttons: */
+.btn-onlyfors {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #00aff0;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 2em;
+  transition: background-color 0.2s ease;
+}
+.btn-onlyfors:hover,
+.btn-onlyfors:active {
+  border-color: transparent !important;
+  background-color: #0091ea !important;
+  color: white !important;
+  cursor: pointer;
+}
+.btn-onlyfors:disabled {
+  background-color: rgba(138, 150, 163, 0.75);
+  border-color: transparent;
+}
+
+/* tippy.js */
+.tippy-box[data-theme~="material"] {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #111;
+  color: #fff;
+  font-family: inherit;
+  font-size: 80%;
+  font-weight: normal !important;
+  border: 0;
+}
+[data-bs-theme="dark"] .tippy-box[data-theme~="material"] {
+  color: #111;
+  background-color: #aaa;
+}
+.tippy-box h3 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.tippy-box h4 {
+  font-size: 120%;
+  font-weight: normal;
+}
